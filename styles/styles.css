@@ -1,3 +1,10 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+</style>
+/* grijs #899CA0 - donkergroen #1C2B32 */
+
+
+
 /*////////////////////////////////////////////////////////////////////////
 Table of Contents:
     1. Global Styles
@@ -15,18 +22,32 @@ Table of Contents:
 /*////////////////////////
     1. Global Styles
 ////////////////////////*/
-
+*  {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} /* globale reset */
 
 
 /*////////////////////////
     2. Typography
 ////////////////////////*/
+body {
+ font-family: 'Poppins', sans-serif;
+}
 
 
 
 /*////////////////////////
     3. Areas
 ////////////////////////*/
+.header {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 2em;
+}
 
 
 
