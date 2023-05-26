@@ -50,6 +50,7 @@ body {
 .intro{
     font-weight: lighter;
     margin-top: 20px;
+    color: #1C2B32;
 }
 .title{
     font-size: 104px;
@@ -76,13 +77,27 @@ header {
 }
 .inputbeschikbaar{
     border-radius: 20px 0 0 20px;
-    height: 44px;
+    height: 45px;
     background: transparent;
+    border: 2px solid #1C2B32;
+    color: #1C2B32;
+    outline: none;
+    padding-left: 36px;
+    padding-right: 104px;
+
+}
+input::placeholder {
+    color: #1C2B32;
 }
 .checkbeschikbaar {
     margin: -6px;
     border-radius: 0 20px 20px 0;
     height: 50px;
+    background: #1C2B32;
+    color: white;
+    border: 2px solid #1C2B32;
+    padding-left: 12px;
+    padding-right: 108px;
 
 }
 
