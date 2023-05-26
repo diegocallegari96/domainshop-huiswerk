@@ -41,6 +41,13 @@ body {
 /*////////////////////////
     3. Areas
 ////////////////////////*/
+
+
+
+
+
+/*///////////// 3.1 Header /////////////*/
+
 .header {
     width: 1000px;
     margin-left: auto;
@@ -48,11 +55,14 @@ body {
     text-align: center;
     padding: 2em;
 }
+.inputbeschikbaar{
+    border-radius: 20px 0 0 20px;
+}
+.checkbeschikbaar {
+    margin: -6px;
+    border-radius: 0 20px 20px 0;
 
-
-
-/*///////////// 3.1 Header /////////////*/
-
+}
 
 
 /*///////////// 3.2 Testimonial /////////////*/
