@@ -28,7 +28,12 @@ Table of Contents:
     padding: 0;
 } /* globale reset */
 
-
+a:link {
+    color: gray;
+}
+a:hover {
+    text-decoration: none;
+}
 /*////////////////////////
     2. Typography
 ////////////////////////*/
@@ -48,9 +53,10 @@ body {
 
 /*///////////// 3.1 Header /////////////*/
 .intro{
-    font-weight: lighter;
-    margin-top: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
     color: #1C2B32;
+    font-size: 14px;
 }
 .title{
     font-size: 104px;
@@ -76,14 +82,15 @@ header {
     background-position: center;
 }
 .inputbeschikbaar{
-    border-radius: 20px 0 0 20px;
-    height: 45px;
+    border-radius: 30px 0 0 30px;
+    height: 60px;
     background: transparent;
     border: 2px solid #1C2B32;
     color: #1C2B32;
     outline: none;
     padding-left: 36px;
     padding-right: 104px;
+    width: 360px;
 
 }
 input::placeholder {
@@ -91,14 +98,17 @@ input::placeholder {
 }
 .checkbeschikbaar {
     margin: -6px;
-    border-radius: 0 20px 20px 0;
-    height: 46px;
+    border-radius: 0 30px 30px 0;
+    height: 60px;
     background: #1C2B32;
     color: white;
     border: 2px solid #1C2B32;
     padding-left: 12px;
     padding-right: 108px;
 
+}
+input[type="submit"]{
+    width: 200px;
 }
 
 
@@ -117,7 +127,30 @@ h2{
 
 /*///////////// 3.3 Support /////////////*/
 
+img {
+    width: 100%;
+    border-radius: 12px;
+}
 
+.onsteam {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+button[type="button"]{
+    border-radius: 30px 30px 30px 30px;
+    height: 60px;
+    background: #1C2B32;
+    color: white;
+    border: 2px solid #1C2B32;
+    float: left;
+    width: 180px;
+
+
+}
 
 /*///////////// 3.4 Faq /////////////*/
 
