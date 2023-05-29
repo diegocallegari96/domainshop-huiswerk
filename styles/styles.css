@@ -1,6 +1,6 @@
-<style>
+/*<style>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-</style>
+</style>*/
 /* grijs #899CA0 - donkergroen #1C2B32 */
 
 
@@ -56,7 +56,7 @@ body {
     font-size: 104px;
     color: #1C2B32;
     margin-bottom: -16px;
-    margin-top: -140px;
+    margin-top: -136px;
     font-weight: 800;
 }
 
@@ -92,7 +92,7 @@ input::placeholder {
 .checkbeschikbaar {
     margin: -6px;
     border-radius: 0 20px 20px 0;
-    height: 50px;
+    height: 46px;
     background: #1C2B32;
     color: white;
     border: 2px solid #1C2B32;
@@ -104,7 +104,16 @@ input::placeholder {
 
 /*///////////// 3.2 Testimonial /////////////*/
 
-
+main {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+h2{
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
 
 /*///////////// 3.3 Support /////////////*/
 
